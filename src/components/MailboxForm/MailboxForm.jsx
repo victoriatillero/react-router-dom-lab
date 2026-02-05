@@ -27,6 +27,7 @@ return (
             <input type="text" name="boxHolder" id="boxHolder" value={formData.boxHolder} onChange={handleChange} />
             <label htmlFor="size">Select a box size</label>
             <select name="boxSize" id="boxSize" value={formData.boxSize} onChange={handleChange}>
+                <option value="select"> Select box size</option>
                 <option value="small">Small</option>
                 <option value="medium">Medium</option>
                 <option value="large">Large</option>
